@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Mukta:wght@200&display=swap');
+/* Carousal */
+.carousel_image{
+    height: 600px;
+    opacity: 0.8;
+}
+.carousal_heading{
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 4px;
+    color: black;
+    font-size: 50px;
+}
+/* About section */
+.about_heading{
+    font-family: 'Mukta', sans-serif;
+    font-size: 40px;
+    color: white;
+}
+.about_paragraph{
+    line-height: 2;
+    font-family: 'Macondo', cursive;
+    font-size: 18px;
+    color: white;
+}
+/* Dishes */
+
+.dishes{
+    background-image: url("./images/foodbackground.jpg");
+    background-size: cover;
+}
+.dish1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.dish2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.dish3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.dish4{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card{
+    width: 65%;
+    height: 310px;
+    border-radius: 20px;
+    box-shadow: 5px 8px 10px #161515;
+}
+.item1{
+    background-image: url("./images/peri\ peri.jpg");
+    background-size: cover;
+}
+.item2{
+    background-image: url("./images/dimsum.jpg");
+    background-size: cover;
+}
+.item3{
+    background-image: url("./images/chillie\ alfam.jpg");
+    background-size: cover;
+}
+.item4{
+    background-image: url("./images/tuna.jpg");
+    background-size: cover;
+}
+.item5{
+    background-image: url("./images/goan.crab.curry.jpg");
+    background-size: cover;
+}
+.item6{
+    background-image: url("./images/arabic-beef-manthi.jpg");
+    background-size: cover;
+}
+.item7{
+    background-image: url("./images/goat\ mandi.jpg");
+    background-size: cover;
+}
+.item8{
+    background-image: url("./images/hot\ and\ sour\ soup.jpg");
+    background-size: cover;
+}
+.card:hover{
+    height: 325px;
+}
+/* Contact */
+.location{
+    color: white;
+    margin-left: 160px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
